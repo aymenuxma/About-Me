@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(images/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    margin: auto;
+    margin-top: 13%;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 1px 1px rgb(0, 0, 255);
+}
+
+img {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: aliceblue;
+    font-family: "Knewave";
+}
+
+#aka {
+    position: relative;
+    bottom: 20px;
+    font-size: 15px;
+    color: dimgray;
+}
+
+#desc {
+    font-size: large;
+    color: rgb(1, 94, 131);
+}
+
+a {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    box-shadow: 2px 2px 3px rgb(253, 234, 234);
+    border-radius: 9px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: white;
+}
